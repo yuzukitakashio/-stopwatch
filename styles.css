@@ -37,18 +37,18 @@ button {
 
 /* スタートボタンのスタイル */
 #startButton {
-    background-color: blue;
-    color: white;
+    background-color: blue !important; /* 青 */
+    color: white !important; /* ボタンのテキストを白色に */
 }
 
 /* ストップボタンのスタイル */
 #stopButton {
-    background-color: red;
-    color: white;
+    background-color: red !important; /* 赤 */
+    color: white !important; /* ボタンのテキストを白色に */
 }
 
 /* リセットボタンのスタイル */
 #resetButton {
-    background-color: yellow;
-    color: black;
+    background-color: yellow !important; /* 黄色 */
+    color: black !important; /* ボタンのテキストを黒色に */
 }
