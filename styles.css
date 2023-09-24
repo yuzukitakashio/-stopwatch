@@ -1,17 +1,28 @@
+/* ページ全体のスタイル */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    background-color: #f0f0f0; /* ページの背景色を灰色に設定 */
+    padding: 20px;
 }
 
+/* ストップウォッチのスタイル */
 .stopwatch {
-    margin: 50px auto;
-    width: 200px;
+    margin: 0 auto;
+    width: 250px; /* ストップウォッチコンテナの幅を調整 */
+    background-color: #fff; /* ストップウォッチコンテナの背景色を白に設定 */
+    padding: 20px;
+    border-radius: 10px; /* 角丸のボーダーを追加 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* ドロップシャドウを追加 */
 }
 
+/* 時間表示のスタイル */
 .time {
     font-size: 36px;
+    font-weight: bold; /* 太字のフォント */
 }
 
+/* コントロールボタンのスタイル */
 .controls {
     margin-top: 20px;
 }
@@ -20,22 +31,24 @@ button {
     font-size: 16px;
     padding: 10px 20px;
     margin: 5px;
+    border: none; /* ボーダーを削除 */
+    cursor: pointer; /* ホバーカーソル */
 }
 
 /* スタートボタンのスタイル */
 #startButton {
-    background-color: blue; /* 青 */
-    color: white; /* ボタンのテキストを白色に */
+    background-color: blue;
+    color: white;
 }
 
 /* ストップボタンのスタイル */
 #stopButton {
-    background-color: red; /* 赤 */
-    color: white; /* ボタンのテキストを白色に */
+    background-color: red;
+    color: white;
 }
 
 /* リセットボタンのスタイル */
 #resetButton {
-    background-color: yellow; /* 黄色 */
-    color: black; /* ボタンのテキストを黒色に */
+    background-color: yellow;
+    color: black;
 }
