@@ -21,3 +21,21 @@ button {
     padding: 10px 20px;
     margin: 5px;
 }
+
+/* スタートボタンのスタイル */
+#startButton {
+    background-color: blue; /* 青 */
+    color: white; /* ボタンのテキストを白色に */
+}
+
+/* ストップボタンのスタイル */
+#stopButton {
+    background-color: red; /* 赤 */
+    color: white; /* ボタンのテキストを白色に */
+}
+
+/* リセットボタンのスタイル */
+#resetButton {
+    background-color: yellow; /* 黄色 */
+    color: black; /* ボタンのテキストを黒色に */
+}
